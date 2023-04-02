@@ -1,9 +1,9 @@
 --- 
 title: "Book on Economics"
 author: "Hiroshi Suzuki"
-date: "2023-03-14"
+date: "2023-04-02"
 site: bookdown::bookdown_site
-documentclass: book
+documentclass: bxjsbook
 bibliography: [book.bib, packages.bib]
 url: https://icu-hsuzuki.github.io/eco-book/
 # cover-image: path to the social sharing image like images/cover.jpg
