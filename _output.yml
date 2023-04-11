@@ -3,10 +3,11 @@ bookdown::bs4_book:
   theme:
     primary: "#096B72"
   repo: https://github.com/icu-hsuzuki/eco-book
-# bookdown::pdf_book:
-#   includes:
-#     in_header: preamble.tex
-#   latex_engine: xelatex
-#   citation_package: natbib
-#   keep_tex: yes
-# bookdown::epub_book: default
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: yes
+  pandoc_args: [--top-level-division=chapter, --wrap=none]
+bookdown::epub_book: default
