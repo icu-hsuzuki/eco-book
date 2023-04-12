@@ -1,9 +1,11 @@
 --- 
 title: "Book on Economics"
 author: "Hiroshi Suzuki"
-date: "2023-04-02"
+date: "2023-04-11"
 site: bookdown::bookdown_site
-documentclass: bxjsbook
+booklanguage: JP
+documentclass: bxjsbook #book
+# classoption: xelatex, ja=standard
 bibliography: [book.bib, packages.bib]
 url: https://icu-hsuzuki.github.io/eco-book/
 # cover-image: path to the social sharing image like images/cover.jpg
@@ -13,45 +15,29 @@ description: |
   set in the _output.yml file.
 biblio-style: apalike
 csl: chicago-fullnote-bibliography.csl
+biblio-title: "参考文献"
 ---
+# この本について
 
-# About this book
+経済関係のデータサイエンスの内容を書いていくための練習用です。
+ほぼ、同じ内容を、README にも、書いてありますから、この内容（`index.Rmd`）は、編集段階で消去して構いません。
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
+RStudio の New Project から Book を選び、作成したファイルを、編集したものです。最初に書かれている内容は、本を作成する時に、有用な内容も含みますから、それは、最後の、bookdown に、まとめてあります。
 
-## Usage 
+自分で、bs4_book テンプレートを利用して、日本語で本を書く時には、リポジトリ [
+bs4_book_template](https://github.com/icu-hsuzuki/bs4_book_template) を利用することも可能です。必要ファイルを整理し、`preamble.tex` に、数行書き加え、日本語で、PDF も作成できるようにしてあります。
 
-Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
+## Git-GitHub-Pull Request を用いての共同編集
 
-Use second-level and higher headings within chapters like: `## A short section` or `### An even shorter section`.
+本を作成するには、いくつかのレベルがあります。
 
-The `index.Rmd` file is required, and is also your first book chapter. It will be the homepage when you render the book.
+1. RStudio book project を作成して、編集
+2. Git を利用して、履歴をとる
+3. GitHub Repository に同期させて編集
+4. 管理者のGitHub Repository （オリジナル・リポジトリ）からフォークしたリポジトリを編集して、Pull Request
+5. 編集者何人かで、共同編集
+6. 編集者何人かで共同編集し、その管理を行う
 
-## Render book
+最後の二つは、管理者としての仕事を含みます。
 
-You can render the HTML version of this example book without changing anything:
-
-1. Find the **Build** pane in the RStudio IDE, and
-
-1. Click on **Build Book**, then select your output format, or select "All formats" if you'd like to use multiple formats from the same book source files.
-
-Or build the book from the R console:
-
-
-```r
-bookdown::render_book()
-```
-
-To render this example to PDF as a `bookdown::pdf_book`, you'll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.org/tinytex/>.
-
-## Preview book
-
-As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in "Preview book", or from the R console:
-
-
-```r
-bookdown::serve_book()
-```
-
-
-
+これらを、段階的に、練習しているための、練習用 Book となっています。
