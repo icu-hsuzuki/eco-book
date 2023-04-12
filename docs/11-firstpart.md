@@ -1,5 +1,5 @@
-# (PART) PART I First Part {-}
-# Chapter I of Part I
+# (PART) マクロ経済 {-}
+# マクロ経済について {#macroeconomics}
 
 第1部の名称と最初の章の名称を書いてから、内容を書いていきます。
 

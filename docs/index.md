@@ -1,7 +1,7 @@
 --- 
 title: "Book on Economics"
 author: "Hiroshi Suzuki"
-date: "2023-04-11"
+date: "2023-04-12"
 site: bookdown::bookdown_site
 booklanguage: JP
 documentclass: bxjsbook #book

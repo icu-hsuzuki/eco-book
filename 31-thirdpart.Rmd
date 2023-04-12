@@ -1,0 +1,2 @@
+# (PART) 労働経済 {-}
+# 労働経済について {#laboreconomy}

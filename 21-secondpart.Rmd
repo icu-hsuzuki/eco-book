@@ -1,0 +1,2 @@
+# (PART) 計量経済 {-}
+# 計量経済について {#econometrics}
