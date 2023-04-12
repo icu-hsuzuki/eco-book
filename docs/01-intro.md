@@ -1,11 +1,11 @@
-# Hello bookdown 
+# はじめに {#introduction}
 
-All chapters start with a first-level heading followed by your chapter title, like the line above. There should be only one first-level heading (`#`) per .Rmd file.
+この本について、導入を書いていきましょう。
 
-## A section
+## 節
 
-All chapter sections start with a second-level (`##`) or higher heading followed by your section title, like the sections above and below here. You can have as many as you want within a chapter.
+章のなかの節は、二つ、その中の節は、三つですが、Visual Editor を使うことも可能です。
 
-### An unnumbered section {-}
+### 小節 {-}
 
-Chapters and sections are numbered by default. To un-number a heading, add a `{.unnumbered}` or the shorter `{-}` at the end of the heading, like in this section.
+番号をつけたくない時は、上のようにします。
